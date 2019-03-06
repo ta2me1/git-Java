@@ -29,7 +29,7 @@ public class IfTest03
 	System.out.print("请输入当前的天气情况：");
 	int weather = s.nextInt();
 	
-	if (weather  == 1)
+	if (weather  == 1){
 	{System.out.println("下雨天");
 	}
 		if (sex == 1)
@@ -41,13 +41,15 @@ public class IfTest03
 		else
 		{System.out.println("Whay are your sex?");
 		}
-		
-	if (weather == 0)
+
+	}	
+	else if (weather == 0){
+	
 	{System.out.println("晴天");
 	}
 		System.out.print("请输入温度（数字）");
 		int tem = s.nextInt();
-		if (tem >  30)
+		if (tem >=  30)
 			if (sex == 1)
 			{System.out.println("戴太阳眼镜");
 			}
@@ -60,10 +62,12 @@ public class IfTest03
 		if (tem < 30)
 		{System.out.println("恭喜你什么都不用带");
 		}
-		
+	}	
 	else
 	{System.out.println("你输入的天气不合法");
 	}
 	}
 	
 }
+
+//ver0.2
