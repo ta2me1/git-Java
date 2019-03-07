@@ -1,17 +1,17 @@
 
 /*
-ĞèÇó£º
-ÅĞ¶Ïµ±Ç°ÌìÆø£º
- ÍâÃæÏÂÓê£º
- 	´øÉ¡£º
-			ÄĞµÄ´ø ºÚÉ¡
-			Å®µÄ´ø »¨É¡
- ÍâÃæ²»ÏÂÓê£º
- 	ÎÂ¶È³¬¹ı30¶È 
-			ÄĞµÄ´øÄ«¾µ
-			Å®µÄÍ¿·ÀÉ¹ÓÍ
-	30¶ÈÒÔÏÂ
-			Ê²Ã´¶¼²»¸É
+ÃÃ¨Ã‡Ã³Â£Âº
+Ã…ÃÂ¶ÃÂµÂ±Ã‡Â°ÃŒÃ¬Ã†Ã¸Â£Âº
+ ÃÃ¢ÃƒÃ¦ÃÃ‚Ã“ÃªÂ£Âº
+ 	Â´Ã¸Ã‰Â¡Â£Âº
+			Ã„ÃÂµÃ„Â´Ã¸ ÂºÃšÃ‰Â¡
+			Ã…Â®ÂµÃ„Â´Ã¸ Â»Â¨Ã‰Â¡
+ ÃÃ¢ÃƒÃ¦Â²Â»ÃÃ‚Ã“ÃªÂ£Âº
+ 	ÃÃ‚Â¶ÃˆÂ³Â¬Â¹Ã½30Â¶Ãˆ 
+			Ã„ÃÂµÃ„Â´Ã¸Ã„Â«Â¾Âµ
+			Ã…Â®ÂµÃ„ÃÂ¿Â·Ã€Ã‰Â¹Ã“Ã
+	30Â¶ÃˆÃ’Ã”ÃÃ‚
+			ÃŠÂ²ÃƒÂ´Â¶Â¼Â²Â»Â¸Ã‰
 */
 
 
@@ -19,24 +19,24 @@ public class IfTest03
 {
 	public static void main(String[] args){
 	java.util.Scanner s = new java.util.Scanner(System.in);
-	System.out.println("»¶Ó­À´µ½±¾ÏµÍ³");
-	System.out.println("ËµÃ÷1£º1±íÊ¾ÏÂÓê£¬0±íÊ¾²»ÏÂÓê");
-	System.out.println("ËµÃ÷2£º1±íÊ¾ÄĞ£¬0±íÊ¾Å®");
+	System.out.println("Â»Â¶Ã“Â­Ã€Â´ÂµÂ½Â±Â¾ÃÂµÃÂ³");
+	System.out.println("Ã‹ÂµÃƒÃ·1Â£Âº1Â±Ã­ÃŠÂ¾ÃÃ‚Ã“ÃªÂ£Â¬0Â±Ã­ÃŠÂ¾Â²Â»ÃÃ‚Ã“Ãª");
+	System.out.println("Ã‹ÂµÃƒÃ·2Â£Âº1Â±Ã­ÃŠÂ¾Ã„ÃÂ£Â¬0Â±Ã­ÃŠÂ¾Ã…Â®");
 	
-	System.out.print("ÇëÊäÈëĞÔ±ğ£º");
+	System.out.print("Ã‡Ã«ÃŠÃ¤ÃˆÃ«ÃÃ”Â±Ã°Â£Âº");
 	int sex = s.nextInt();
 
-	System.out.print("ÇëÊäÈëµ±Ç°µÄÌìÆøÇé¿ö£º");
+	System.out.print("Ã‡Ã«ÃŠÃ¤ÃˆÃ«ÂµÂ±Ã‡Â°ÂµÃ„ÃŒÃ¬Ã†Ã¸Ã‡Ã©Â¿Ã¶Â£Âº");
 	int weather = s.nextInt();
 	
 	if (weather  == 1){
-	{System.out.println("ÏÂÓêÌì");
+	{System.out.println("ÃÃ‚Ã“ÃªÃŒÃ¬");
 	}
 		if (sex == 1)
-		{System.out.println("Çë´øÉÏºÚÉ¡");
+		{System.out.println("Ã‡Ã«Â´Ã¸Ã‰ÃÂºÃšÃ‰Â¡");
 		}
 		else if(sex == 0)
-		{System.out.println("Çë´øÉÏĞ¡»¨É¡");
+		{System.out.println("Ã‡Ã«Â´Ã¸Ã‰ÃÃÂ¡Â»Â¨Ã‰Â¡");
 		}
 		else
 		{System.out.println("Whay are your sex?");
@@ -45,26 +45,26 @@ public class IfTest03
 	}	
 	else if (weather == 0){
 	
-	{System.out.println("ÇçÌì");
+	{System.out.println("Ã‡Ã§ÃŒÃ¬");
 	}
-		System.out.print("ÇëÊäÈëÎÂ¶È£¨Êı×Ö£©");
+		System.out.print("Ã‡Ã«ÃŠÃ¤ÃˆÃ«ÃÃ‚Â¶ÃˆÂ£Â¨ÃŠÃ½Ã—Ã–Â£Â©");
 		int tem = s.nextInt();
 		if (tem >=  30)
 			if (sex == 1)
-			{System.out.println("´÷Ì«ÑôÑÛ¾µ");
+			{System.out.println("Â´Ã·ÃŒÂ«Ã‘Ã´Ã‘Ã›Â¾Âµ");
 			}
 			else if(sex == 0)
-			{System.out.println("Í¿·ÀÉ¹Ëª");
+			{System.out.println("ÃÂ¿Â·Ã€Ã‰Â¹Ã‹Âª");
 			}
 			else
 			{System.out.println("Whay are your sex?");
 			}
 		if (tem < 30)
-		{System.out.println("¹§Ï²ÄãÊ²Ã´¶¼²»ÓÃ´ø");
+		{System.out.println("Â¹Â§ÃÂ²Ã„Ã£ÃŠÂ²ÃƒÂ´Â¶Â¼Â²Â»Ã“ÃƒÂ´Ã¸");
 		}
 	}	
 	else
-	{System.out.println("ÄãÊäÈëµÄÌìÆø²»ºÏ·¨");
+	{System.out.println("Ã„Ã£ÃŠÃ¤ÃˆÃ«ÂµÃ„ÃŒÃ¬Ã†Ã¸Â²Â»ÂºÃÂ·Â¨");
 	}
 	}
 	
